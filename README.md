@@ -1,4 +1,4 @@
-# Logo classifier V2.0
+# Logo classifier V3.0
 
 ### Function
 
@@ -6,31 +6,34 @@ Recognize logo from a picture
 
 ### Support
 
-Support 1 folder of picture at a time.
+1. Support 1 folder of picture at a time.
 
-Only local command line and local file address input is supported.
+2. The logo has to be in the middle of the picture and takes most of the area.
 
-Only following brands are included:
-'BMW', 'Ford', 'Honda', 'Toyota', 'VW'
+3. Only local command line and local file address input is supported.
+
+4. Only following brands are included: 'BMW', 'Ford', 'Honda', 'Toyota', 'VW'
 
 ### Requirements
 
 Packsages:
 
 Pytorch
-Pillow==8.0.0
+Pillow
 numpy 
 pandas 
 matplotlib
+natsort
+
 
 Files:
 
-tain, val, tlmodel, class_names.txt, logoclassifierV2.0.py
+train, val, unknown, tlmodelv3, class_names.txt, logoclassifierV3.0.py
 
 
 ### Usage
 
-Try `python logoclassifierV2.0.py filename`
+Try `python logoclassifierV3.0.py filename`
 
-For example, `python logoclassifierV2.0.py ./unkown`
+For example, `python logoclassifierV3.0.py ./unkown`
 
