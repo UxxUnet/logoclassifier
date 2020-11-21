@@ -1,4 +1,4 @@
-# Logo classifier V3.0
+# Logo classifier V3.1
 
 ### Function
 
@@ -12,7 +12,24 @@ Recognize logo from a picture
 
 3. Only local command line and local file address input is supported.
 
-4. Only following brands are included: 'BMW', 'Ford', 'Honda', 'Toyota', 'VW'
+4. Only following brands are included: 
+
+BMW
+Ford
+Honda
+Rolls-Royce
+Toyota
+VW
+bentley
+bugatti
+buick
+ferrari
+jaguar
+koenigsegg
+lamborghini
+maserati
+mclaren
+pagani
 
 ### Requirements
 
@@ -28,12 +45,12 @@ natsort
 
 Files:
 
-train, val, unknown, tlmodelv3, class_names.txt, logoclassifierV3.0.py
+train, val, unknown, tlmodelv3.1, class_names.txt, logoclassifierV3.1.py
 
 
 ### Usage
 
-Try `python logoclassifierV3.0.py filename`
+Try `python logoclassifierV3.1.py filename`
 
-For example, `python logoclassifierV3.0.py ./unkown`
+For example, `python logoclassifierV3.1.py ./unkown`
 
